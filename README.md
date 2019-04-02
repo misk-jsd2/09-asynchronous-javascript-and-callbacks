@@ -166,6 +166,18 @@ Test your code by running it in the command line using `node`!
 
 ---
 
+<br>
+
+## Promises
+
+![](https://cdn-images-1.medium.com/max/823/1*Co0gr64Uo5kSg89ukFD2dw.jpeg)
+
+Promises are a wrapper for callbacks. They read better and we can chain them. Let's refactor the callback in `starter-code/promises-exercise` into a promise.
+
+<br>
+
+---
+
 <a name = "codealong2"></a>
 ## Anonymous Functions and IIFEs (30 min)
 
@@ -260,7 +272,6 @@ Open the [main.js](starter-code/iife-exercise/js/main.js) file.
 - Hint: a second is the timer passed * 1000 (milliseconds).
 
 ---
-
 <a name = "conclusion"></a>
 ## Conclusion (5 min)
 Callbacks and closures are the bread and butter of asynchronous programming. Looking back at our DOM and APIs lessons, our interfaces update on user interactions and/or once we receive data from remote locations. Best practices in JS call for these reactions to be handled in the form of callbacks.
