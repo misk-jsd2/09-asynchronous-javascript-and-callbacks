@@ -11,11 +11,8 @@
       q: userInput,
       appid: appid
     },
-    // success: function(response){
-    //   console.log(response)
-    // }
-  })
-  .then(function(response) {
-    console.log(response)
+    success: function(response){
+      console.log(response)
+    }
   })
 })()

@@ -29,25 +29,10 @@
  *
  */
 
-function makeCountingFunction(predicate) {
-  return function(arrayOfNumbers) {
-    var odds = 0
-    for (var i = 0; i < arrayOfNumbers.length; i++) {
-      if (predicate(arrayOfNumbers[i])) {
-        odds++
-      }
-    }
-    return odds;
-  }
+function makeCountingFunction() {
 }
 
-function isOdd(num) {
-  return num % 2 == 1
-}
-
-function isEven(num) {
-  return num % 2 == 0
-}
+function isOdd() {}
 
 // =============================================================================
 // The code below should work without modification.
@@ -61,7 +46,7 @@ function isEven(num) {
  */
 
 var countTheOdds = makeCountingFunction(isOdd);
-var countTheEvens = makeCountingFunction(isEven);
+
 
 /**
  * The final line below calls our new 'countTheOdds()' function and passes in an
@@ -70,8 +55,6 @@ var countTheEvens = makeCountingFunction(isEven);
  */
 
 var oddCount = countTheOdds([1, 2, 3, 4, 5, 6, 7]);
-var evenCount = countTheEvens([1, 2, 3, 4, 5, 6, 7]);
 
 console.log('There are ' + oddCount + ' odd numbers in the array.');
-console.log('There are ' + evenCount + ' even numbers in the array.');
 // expected output: 'There are 4 odd numbers in the array.'
