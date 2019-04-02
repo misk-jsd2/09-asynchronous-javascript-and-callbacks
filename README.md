@@ -176,6 +176,8 @@ Promises are a wrapper for callbacks. They read better and we can chain them. Le
 
 <br>
 
+---
+
 <a name = "codealong2"></a>
 ## Anonymous Functions and IIFEs (30 min)
 
